@@ -108,3 +108,37 @@
     justify-content: space-around;
     padding: 20px;
 }
+/* footer section */
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 15px;
+    color: white;
+    height: 45vh;
+    padding-top: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: black;
+}
+.footer-info{
+font-size: 18px;
+margin-top: 15px;
+text-align: center;
+}
+.hr{
+
+    height:10vh;
+    text-align: center;
+    padding: 15px;
+    color: rgb(223, 10, 10);
+    background-color: black;
+}
+.copyright{
+    padding-top: 20px;
+}
+#name{
+    font-size: 20px;
+    font-weight: bold;
+}
