@@ -4,6 +4,7 @@
     padding: 0px;
 }
 
+/* ---------------------header section--------------------- */
 .menu-container{
    background-color: rgb(32, 32, 32); 
    padding: 20px;
@@ -28,4 +29,51 @@
 }
 .item:hover{
     color: blue;
+}
+
+.banner-img{
+ width: 300px;;   
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid gray; */
+    color: white;
+    background-image: url("./images/background.png"), linear-gradient(45deg, rgb(8,8,8), rgb(53,53,53));
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+/* about us section */
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
 }
